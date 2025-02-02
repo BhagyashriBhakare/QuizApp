@@ -5,7 +5,7 @@
 Project Name: Quiz App with Gamification
 
 Description:
-A web-based quiz application that integrates gamification features, dynamically fetches quiz data from an API, and presents an intuitive and engaging user interface.
+A web-based quiz application that integrates gamification features,dynamically loads questions from a predefined array of objects., and presents an intuitive and engaging user interface.
 
 2️⃣ Features Implemented
 
@@ -30,7 +30,6 @@ Score tracking and feedback after answering questions.
 Progress tracking.
 
 ✅ Error Handling:
-Ensured API fetch errors are handled gracefully.
 Used proper state management to prevent crashes.
 
 ✅ UI/UX Improvements: Clean and responsive design.
@@ -45,13 +44,17 @@ quiz-app/
 
 │   │   ├── StartScreen.js    # Start quiz screen
 
+│   │   ├── StartScreen.css    # Start quiz screen design
+
 │   │   ├── QuizScreen.js     # Main quiz logic & UI
 
 │   │   ├── ResultScreen.js   # Final result screen
 
+│   │   ├── ResultScreen.js    # Final result screen design
+
 │   ├── services/
 
-│   │   ├── quizService.js    # API fetching logic
+│   │   ├── quizService.js    # set of questions fetching logic
 
 │   ├── App.js                # Main React component
 
@@ -64,19 +67,41 @@ quiz-app/
 │── package.json              # Dependencies
 
 
-5️⃣ API Usage & Data Handling
+5️⃣ Data Handling
 
-1)API Endpoint: https://api.jsonserve.com/Uw5CrX
+1)Fetching Method: Used fetch() in quizService.js with error handling.
 
-2)Fetching Method: Used fetch() in quizService.js with error handling.
-
-3)State Management:
+2)State Management:
 
     Stored quiz data in useState().
     
     Handled async operations inside useEffect().
+    
 
-4)Handling CORS Issue: Used a proxy method if necessary.
+6️⃣Challenges Faced & Solutions
 
-✅ 4. Capture Screenshots & Record a Demo Video
+🔴 Question Not Displaying:
+
+Fixed by ensuring state updates correctly and handling quizData properly.
+
+🔴 React Hooks Warning (useEffect missing dependency):
+
+Ensured that all dependencies were included correctly to avoid unwanted behavior.
+
+7️⃣Future Enhancements 
+
+🚀 Improvements to consider:
+
+    Add leaderboard & progress tracking.
+    Enhance UI with animations.
+    Improve gamification with rewards or levels.
+    Implement a database for saving scores.
+
+8️⃣Submission Details  (For Testline)
+
+     GitHub Repository Link: https://github.com/BhagyashriBhakare/QuizApp
+
+🎯 Final Words
+
+"This project was an exciting challenge! I successfully implemented the required quiz flow, handled errors, and improved UI/UX. Looking forward to feedback and further improvements."
 
