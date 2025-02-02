@@ -1,0 +1,81 @@
+/* Full-screen layout */
+.result-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background: linear-gradient(135deg, #ff6a00, #ee0979); */
+    color: white;
+    text-align: center;
+  }
+  
+  /* Title */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    animation: fadeInDown 1s ease-in-out;
+  }
+  
+  /* Score Card */
+  .score-card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    width: 50%;
+    max-width: 300px;
+    text-align: center;
+    animation: bounceIn 1s ease-in-out;
+  }
+  
+  .score-card p {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .score-card h2 {
+    font-size: 2.5rem;
+  }
+  
+  /* Try Again Button */
+  button {
+    background: #ff4081;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background: #ff105f;
+    transform: scale(1.1);
+  }
+  
+  /* Animations */
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes bounceIn {
+    from {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
