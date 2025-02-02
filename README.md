@@ -1,13 +1,13 @@
 # QuizApp
 
-1️⃣ Project Title & Overview
+1️⃣ Project Title & Overview :-
 
 Project Name: Quiz App with Gamification
 
 Description:
 A web-based quiz application that integrates gamification features,dynamically loads questions from a predefined array of objects., and presents an intuitive and engaging user interface.
 
-2️⃣ Features Implemented
+2️⃣ Features Implemented :-
 
 ✅ Data Integration: Fetched quiz data from the provided API (https://api.jsonserve.com/Uw5CrX).
 
@@ -34,7 +34,7 @@ Used proper state management to prevent crashes.
 
 ✅ UI/UX Improvements: Clean and responsive design.
 
-3️⃣Folder Structure
+3️⃣Folder Structure :-
 
 quiz-app/
 
@@ -67,7 +67,7 @@ quiz-app/
 │── package.json              # Dependencies
 
 
-5️⃣ Data Handling
+4️⃣  Data Handling :-
 
 1)Fetching Method: Used fetch() in quizService.js with error handling.
 
@@ -78,7 +78,7 @@ quiz-app/
     Handled async operations inside useEffect().
     
 
-6️⃣Challenges Faced & Solutions
+5️⃣Challenges Faced & Solutions:-
 
 🔴 Question Not Displaying:
 
@@ -88,7 +88,7 @@ Fixed by ensuring state updates correctly and handling quizData properly.
 
 Ensured that all dependencies were included correctly to avoid unwanted behavior.
 
-7️⃣Future Enhancements 
+6️⃣Future Enhancements :-
 
 🚀 Improvements to consider:
 
@@ -97,9 +97,11 @@ Ensured that all dependencies were included correctly to avoid unwanted behavior
     Improve gamification with rewards or levels.
     Implement a database for saving scores.
 
-8️⃣Submission Details  (For Testline)
+7️⃣Submission Details  (For Testline):-
 
      GitHub Repository Link: https://github.com/BhagyashriBhakare/QuizApp
+
+8️⃣  Screenshots :-
 
 🎯 Final Words
 
