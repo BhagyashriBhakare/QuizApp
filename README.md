@@ -101,9 +101,6 @@ Ensured that all dependencies were included correctly to avoid unwanted behavior
 
      GitHub Repository Link: https://github.com/BhagyashriBhakare/QuizApp
 
-8️⃣  Screenshots :-
-
-   QuestionPage.jpeg
 
 🎯 Final Words
 
